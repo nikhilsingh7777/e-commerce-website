@@ -1470,5 +1470,22 @@ flex-wrap: wrap;
     }
  
   }
+.arrow{
+  width:800px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin:6px;
+  padding:6px;
+}
+.first{
+background-color:#088177;
+border:1px solid green;
+height:28px;
+width:28px;
+margin:4px;
+padding:5px;
+}
 
 
