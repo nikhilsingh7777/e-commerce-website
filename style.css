@@ -1,0 +1,1472 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior:smooth;
+    overflow-x:hidden;
+}
+body{
+  background-color: rgb(239, 237, 237)
+}
+.searchbar{
+  font-weight: bold;
+  margin:7px;
+  padding:7px;
+}
+.banner_btn{
+  padding:9px;
+  margin:9px;
+  font-weight: bold;
+  background-color: rgb(212, 222, 222);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#imgtop{
+    height:200px;
+    background-color:black;
+    overflow-y:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;}
+#img1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:199px;
+    width:225px;
+    transition:.5s transform;
+    }
+#img1:hover{
+    transform:scale(1.108);}
+    #h1intro{
+    font-size:1.5rem;
+    }
+    #img2{
+    height:60px;
+    width:60px;
+    transition:0.5s all;
+    /* filter:invert(1);  */
+  }
+  #img2{
+    transform:scale(1.000122);
+  }
+    .container{
+      display:flex;
+      justify-items: center;
+      align-items: center;
+      /* position:absolute;
+      top:440px;
+      right:220px; */
+  } 
+  .conc{
+    display:inline-block;
+    position:absolute;
+    top:550px;
+    right:300px;
+  }
+    @keyframes typing {
+      from{ width:0}
+      to{ width:100%}
+    }
+    @keyframes blinking{
+      from{border-color:transparent}
+      to{border-color: orange;
+      }
+    }
+    #navbar{
+      overflow-y:hidden;
+      height:67px;
+      background-color:#0e8d82;
+      overflow-x:hidden;
+    }
+    #navbar ul{
+      display:flex;
+      flex-direction:row;
+      justify-content:flex-end;
+      flex-wrap: wrap;
+      align-items:center;
+      margin:-18px;
+      padding:5px;
+    }
+    #navbar li{
+    margin:20px;
+    padding:10px;
+    position:relative;
+    overflow-y:hidden;
+    list-style:none; 
+    }
+    #navbar ul li a{
+      font-size:1.2rem; 
+      text-decoration:none;
+      color:rgb(255, 255, 255);
+      font-weight:bold;
+      transition:0.3s ease;
+      font-family:Arial, Helvetica, sans-serif;
+      display:block; 
+    }
+    #navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    }
+    #navbar ul li :hover{
+      background-color: rgb(255, 255, 255);
+      }
+.img3{
+height:600px;
+width:400px;
+overflow-y: hidden;
+ }
+ .slideshow-container{
+  position:absolute;
+  top:265px;
+  left:0px;  
+  height:600px;
+  width:100vw;
+  overflow-y: hidden;
+  z-index: -10; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ } 
+.slide {
+  display: none;
+  width: 100%;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+}
+.slide {
+  display: none;
+  width: 100%;
+}
+ #wel{
+  font-size:2.6rem;
+  font-weight:bold;
+  font-family:'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background:center/cover no-repeat url("backg1.png");
+
+ }
+ #introsection{
+  height:540px;
+}
+ #introline{
+  position:absolute;
+  top:640px;
+  right:200px;
+ }
+ #introline h1{
+  font-size:1.7rem;
+  color:rgb(255, 131, 152);
+ }
+ #benifit{
+  height:400px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+ }
+.card{
+border:0px solid black;
+display:flex;
+flex-direction:column;
+height:200px;
+width:150px;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+padding:12px;
+margin:12px;
+background-color: rgb(219, 219, 219);
+}
+ .imgbenifits{
+  height:120px;
+  width:120px;
+  object-fit:cover;
+  margin:9px ;
+  padding: 9px;
+  transition: .2s all;
+ }
+ .imgbenifits:hover{
+  transform: scale(1.100234);
+ }
+ #benifit .card p{
+  padding:10px;
+  line-height: 1;
+  border-radius: 4px;
+  color:blueviolet;
+  background-color:pink;
+  font-family:'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+ }
+ .box{
+  border: 0px solid black;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction:column;
+ justify-content: center;
+ align-items: center;
+  margin:auto;
+  padding:10px;
+  flex-wrap: wrap;
+ }
+ .box:hover{
+  border-radius: 20px;
+ }
+ .img_feature{
+height:350px;
+width:350px;
+object-fit:cover;
+border: 1px solid rgb(213, 213, 213);
+display:flex;
+flex-direction: column;
+justify-content:center ;
+align-items: center;
+
+ }
+.img_feature:hover{
+opacity: 0.8;
+border-radius: 10px;
+ }
+ #fearures-head{
+  text-align: center;
+  font-size: 2.7rem;
+  line-height:1;
+  overflow-y: hidden;
+ }
+ #fearures-head2{
+  text-align: center;
+  font-size: 1.8rem;
+  line-height:1;
+  overflow-y: hidden;
+  color: rgb(175, 175, 175);
+ }
+.head{
+height:90px;
+}
+#featured_product{
+  display:flex;
+  flex-direction:row;
+  margin:10px;
+  padding:10px;
+  flex-wrap: wrap;
+}
+.brand_name{
+  color:rgb(10, 10, 99);
+}
+.price{
+  color: chocolate;
+  font-size: 1.2rem;
+}
+.product_name{
+color: rgb(0, 0, 0);
+}
+.cartfeatured{
+  position:relative;
+  bottom: 0px;
+  right: 0px;
+}
+#cart_features{
+display: flex;
+flex-direction: row;
+align-items: end;
+justify-content: flex-end;
+}
+#repair_offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+  background:center/cover no-repeat url("new2.jpg");
+  height:300px;
+}
+#repair_offer p{
+  font-size:1.8rem;
+  color:green;
+} 
+#repair_offer span{
+  color: red;
+  font-size: 2.4rem;
+}
+#repair_offer h2{
+  font-size: 2.1rem;
+}
+#repair_offer button{
+  background-color:palevioletred;
+  margin:7px;
+  padding:7px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.02rem;
+  border: 1px solid pink;
+}
+#repair_offer button:hover{
+  background-color: aliceblue;
+}
+#empty{
+height:90px;
+}
+#new_arrival{
+  display:flex;
+  flex-direction:row;
+  margin:10px;
+  padding:10px;
+  flex-wrap:wrap;
+}
+#offer_box{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.banner{
+border: 0px solid pink;
+height:267.33px ;
+width:450px;
+display: flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+background:center/cover no-repeat url("london.jpg");
+}
+.banner:hover{
+  opacity: 0.898;
+}
+.banner1:hover{
+  opacity: 0.89;
+}
+.banner1{
+  margin: 8px;padding:8px;
+  border: 1px solid pink;
+  height:250px;
+  width:450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:center/cover no-repeat url("newyork.jpg");
+  }
+  #banner_of{
+    margin:20px;
+    padding:20px;
+  }
+  #offer_box p{
+    font-size: 1.9rem;
+    color: rgb(212, 212, 212);
+  }
+  #offer_box h3{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(106, 106, 248);
+  }
+  #offer_box  h4{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 186, 255);
+  }
+  #offer_box button{
+    margin:5px;
+    padding:5px;
+    color:rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    border:1px solid pink;
+  }
+  #offer_box button:hover{
+    margin:6px ;
+    padding:6px;
+    background-color: pink;
+  }
+.card1{
+  border:1px solid pink;
+  height:250px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background:center/cover no-repeat url("coldplace.jpg") ;
+}
+.card2{
+  border:1px solid pink;
+  height:250px;
+  width: 300px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  background:center/cover no-repeat url("dryplace.jpg");
+}
+.card3{
+  border:1px solid rgb(255, 255, 255);
+  height:250px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background:center/cover no-repeat url("waterplace.jpg");
+}
+#category_clothes{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-evenly;
+}
+#empty1{
+  height:60px;
+}
+#category_clothes h2{
+font-size: 1.4rem; 
+color: rgb(0, 0, 0);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#category_clothes h3{
+  font-size: 1.4rem;
+  color:rgb(51, 255, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#category_clothes span{
+  color: red;
+}
+#login{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  height:200px;
+  background:center/cover no-repeat url("login.jpg");
+}
+.newletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#login h2{
+  font-size:1.9rem;
+  font-weight:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(78, 110, 255);
+  margin:10px;
+  padding:10px;
+}
+#login p{
+  font-size: 1.4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:6px ;
+  padding:6px ;
+}
+.loginemail{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.loginemail input{
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid blue;
+  border-radius:3%;
+  margin:10px ;
+  padding:15px;
+  color: aliceblue;
+  box-shadow: aquamarine;
+  height: 1.125rem;
+  width:400px ;
+  background-color:rgb(138, 159, 255);
+}
+.loginemail button{
+  margin:0px;
+  padding:9px;
+  font-size:0.76rem;
+  background-color:#088177;
+  border: 1px solid blue;
+  width: 100px;
+}
+.loginemail button:hover{
+margin: 4px;
+background-color: aliceblue;
+}
+.logo{
+  height:80px; 
+  width:80px;
+  background-color:black;
+}
+.footer1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer1 p{
+  font-size: 1.2rem;
+  margin:4px;
+  padding:3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer1 h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color: blue;
+}
+.footer2{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+.footer3{
+  display: flex;
+  flex-direction:column;
+  height:350px;
+  width: 400px;
+  border: 0px solid black;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+#footer_btm{
+  display:flex;
+  flex-direction:row;
+justify-content:space-between;
+}
+.follw_on{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3px;
+  padding:3px;
+}
+.follw_on svg{
+  margin:4px;
+  padding:4px;
+  transition:0.5s transform;
+} 
+.follw_on svg:hover{
+transform:scale(1.1023);
+}
+#footer{
+font-size: 1.6rem;
+background-color: black;
+color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+.footer2 h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:bold;
+  color: blue;
+}
+.footer2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer2 a:hover{
+text-decoration: underline;
+}
+.payment{ 
+display:flex;
+flex-direction:column; 
+flex-wrap: wrap; 
+}
+.footer3 h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+ }
+ .footer3 h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+ }
+ .footer3 svg{
+  margin:3px ;
+  padding: 3px;
+ }
+ /* media queries......... */
+/* for---------->navbar/intro.....*/
+ @media (min-width:1000px) and (max-width:1219px){
+  .container{
+    display:inline-block;
+    position:absolute;
+    top:440px;
+    right:110px;
+} 
+.conc{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* top:550px;
+  right:150px; */
+}
+#wel{
+  font-size:2.0rem;
+  font-weight:bold;
+  font-family:'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background:center/cover no-repeat url("backg1.png");
+
+ }
+ #navbar ul li a{
+  font-size:1.4rem;
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+  transition:0.3s ease;
+  font-family:'Gill Sans','Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+}
+.img3{
+  height:520px;
+  width:400px;
+  overflow-y: hidden;
+   }
+   .slideshow-container{
+    position:absolute;
+    top:290px;
+    left:0px; 
+    height:520px;
+    width:500px;
+    overflow-y: hidden;
+   } 
+   #benifit{
+    height:400px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+   }
+  .card{
+  border:0px solid black;
+  display:flex;
+  flex-direction:column;
+  height:180px;
+  width:120px;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  padding:10px;
+  margin:10px;
+  background-color: rgb(219, 219, 219);
+  }
+   .imgbenifits{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    margin:5px;
+    padding:5px;
+    transition:.2s all;
+  }
+ }
+ @media (min-width:800px) and (max-width:1000px){
+  .container{
+    top:440px;
+    right:80px;
+} 
+.conc{
+  top:550px;
+  right:100px;
+}
+#wel{
+  font-size:1.2rem;
+ }
+ .hel{
+  font-size:1.2rem;
+}
+   .slideshow-container{
+    position:absolute;
+    top:290px;
+    left:0px; 
+    height:420px;
+    width:480px;
+    overflow-y:hidden;
+   } 
+   #benifit{
+    height:500px;
+   }
+  .card{
+  height:200 px;
+  width:120px;
+  }
+   .imgbenifits{
+    height:100px;
+    width:100px;
+   }
+   #fearures-head{
+    text-align: center;
+    font-size: 2.4rem;
+   }
+   #fearures-head2{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height:1;
+    overflow-y: hidden;
+    color: rgb(175, 175, 175);
+   }
+  .head{
+  height:70px;
+  }
+   }
+   
+   @media (min-width:400px) and (max-width:800px){
+    .container{
+      top:440px;
+      right:50px;
+  } 
+  .conc{
+    top:550px;
+    right:70px;
+  }
+  #wel{
+    font-size:1rem;
+   }
+   .hel{
+    font-size:0.89rem;
+  }
+     .slideshow-container{
+      position:absolute;
+      top:290px;
+      left:0px; 
+      height:400px;
+      width:300px;
+      overflow-y:hidden;
+     } 
+     .img3{
+      height:410px;
+      width:300px;
+      overflow-y: hidden;
+       }
+     #benifit{
+      height:500px;
+     }
+    .card{
+    height:200px;
+    width:100px;
+    overflow-y: hidden;
+    }
+     .imgbenifits{
+      height:70px;
+      width:70px;
+     }
+     #fearures-head{
+      text-align: center;
+      font-size: 1.8rem;
+     }
+     #fearures-head2{
+      text-align: center;
+      font-size: 1.1rem;
+      line-height:1;
+      overflow-y: hidden;
+      color: rgb(175, 175, 175);
+     }
+    .head{
+    height:70px;
+    }
+     }
+     @media (min-width:461px) and (max-width:550px){
+      .slideshow-container{
+        position:absolute;
+        top:270px;
+        left:0px; 
+        height:250px;
+        width:250px;
+        overflow-y:hidden;
+       } 
+       .img3{
+        height:250px;
+        width:250px;
+        overflow-y: hidden;
+         }
+         .container{
+          top:440px;
+          right:20px;
+      } 
+      .conc{
+        top:500px;
+        right:40px;
+      }
+     }
+     @media (min-width:350px) and (max-width:461px){
+      .slideshow-container{
+        position:absolute;
+        top:270px;
+        left:0px; 
+        height:300px;
+        width:400px;
+        overflow-y:hidden;
+       } 
+       .img3{
+        height:300px;
+        width:400px;
+        overflow-y: hidden;
+         }
+         .container{
+          top:598px;
+          right:120px;
+      } 
+      .conc{
+        top:640px;
+        right:150px;
+      }
+      #wel{
+        font-size:1rem;
+        text-align: center;
+       }
+       .hel{
+        font-size:0.89rem;
+        text-align: center;
+      }
+     }
+ /* nav bar ,,,,,,,mediaquieries... */
+ @media (min-width:550px) and  (max-width:1000px){
+  #navbar ul li a{
+    font-size:1.3rem;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    transition:0.3s ease;
+    font-family:'Gill Sans','Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+  }
+  #navbar{
+    overflow-y:hidden;
+    height:80px;
+    background-color:rgb(255, 207, 215);
+    overflow-x:hidden;
+  }
+  #navbar ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items:center;
+    margin:-18px;
+    padding:3px;
+  }
+  #navbar li{
+  margin:15px;
+  padding:8px;
+  position:relative;
+  overflow-y:hidden;
+  list-style:none;
+  }
+ }
+ @media (min-width:449px) and (max-width:550px){
+  #navbar ul li a{
+    font-size:0.888rem;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    transition:0.3s ease;
+    font-family:'Gill Sans','Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+  }
+  #navbar{
+    overflow-y:hidden;
+    height:60px;
+    background-color:rgb(255, 207, 215);
+    overflow-x:hidden;
+  }
+  #navbar ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items:center;
+    margin:-18px;
+    padding:3px;
+  }
+  #navbar li{
+  margin:15px;
+  padding:8px;
+  position:relative;
+  overflow-y:hidden;
+  list-style:none;
+  }
+ }
+ @media (min-width:375px) and (max-width:449px){
+  #navbar ul li a{
+    font-size:0.688rem;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    transition:0.3s ease;
+    font-family:'Gill Sans','Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+  }
+  #navbar{
+    overflow-y:hidden;
+    height:60px;
+    background-color:rgb(255, 207, 215);
+    overflow-x:hidden;
+  }
+  #navbar ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items:center;
+    margin:0px;
+    padding:1px;
+  }
+  #navbar li{
+  margin:10px;
+  padding:5px;
+  position:relative;
+  overflow-y:hidden;
+  list-style:none;
+  }
+ }
+ /* media querie for....newsletters...email ....*/
+ @media (min-width:843px) and (max-width:1065px){
+  #login{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    height:200px;
+    background:center/cover no-repeat url("login.jpg");
+  }
+  .newletter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #login h2{
+    font-size:1.5rem;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(78, 110, 255);
+    margin:7px;
+    padding:7px;
+  }
+  #login p{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:2px;
+    padding:2px;
+  }
+  .loginemail{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  .loginemail input{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid blue;
+    border-radius:3%;
+    margin:6px ;
+    padding:8px;
+    color: aliceblue;
+    box-shadow: aquamarine;
+    height: 1.025rem;
+    width:300px ;
+    background-color:rgb(138, 159, 255);
+  }
+  .loginemail button{
+    margin:0px;
+    padding:9px;
+    font-size:0.66rem;
+    background-color:#088177;
+    border: 1px solid blue;
+    width: 70px;
+  }
+}
+ @media (min-width:695px) and (max-width:843px){
+  #login{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    height:200px;
+    background:center/cover no-repeat url("login.jpg");
+  }
+  .newletter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #login h2{
+    font-size:1.0rem;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(78, 110, 255);
+    margin:5px;
+    padding:5px;
+  }
+  #login p{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:1px;
+    padding:1px;
+  }
+  .loginemail{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  .loginemail input{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid blue;
+    border-radius:3%;
+    margin:6px ;
+    padding:8px;
+    color: aliceblue;
+    box-shadow: aquamarine;
+    height: 1.025rem;
+    width:240px ;
+    background-color:rgb(138, 159, 255);
+  }
+  .loginemail button{
+    margin:0px;
+    padding:9px;
+    font-size:0.66rem;
+    background-color:#088177;
+    border: 1px solid blue;
+    width: 60px;
+  }}
+  @media (min-width:500px) and (max-width:695px){
+    #login{
+      height:160px;    }
+    #login h2{
+      font-size:1.0rem;
+      font-weight:bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(78, 110, 255);
+      margin:5px;
+      padding:5px;
+    }
+    #login p{
+      font-size: 0.59rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin:1px;
+      padding:1px;
+    }
+    .loginemail{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+    }
+    .loginemail input{
+      font-size: 0.74rem;
+      border: 1px solid blue;
+      border-radius:3%;
+      margin:4px ;
+      padding:6px;
+      height: 0.125rem;
+      width:150px ;
+    }
+    .loginemail button{
+      margin:0px;
+      padding:4px;
+      font-size:0.36rem;
+      background-color:#088177;
+      border: 1px solid blue;
+      width:30px;
+    }}
+    @media (min-width:350px) and (max-width:500px){
+      #login{
+        height:160px;    }
+      #login h2{
+        font-size:0.56690rem;
+        font-weight:bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(78, 110, 255);
+        margin:3px;
+        padding:3px;
+      }
+      #login p{
+        font-size: 0.49rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin:1px;
+        padding:1px;
+      }
+      .loginemail input{
+        font-size: 0.564rem;
+        border: 1px solid blue;
+        border-radius:3%;
+        margin:4px ;
+        padding:6px;
+        height: 0.0925rem;
+        width:150px ;
+      }
+      .loginemail button{
+        margin:0px;
+        padding:4px;
+        font-size:0.36rem;
+        background-color:#088177;
+        border: 1px solid blue;
+        width:30px;
+      }}
+/* for top most logo.. exorder */
+@media (min-width:375px) and (max-width:600px){
+  *{
+    overflow-x:hidden ;
+  }
+  #imgtop{
+    height:180px;
+    background-color:black;
+    overflow-y:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow-x:hidden;
+}
+#img1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:160px;
+    width:200px;
+    transition:.5s transform;
+    }
+}
+/* for cards 3 .... */
+@media (min-width:800px) and (max-width:1000px){
+  .card1{
+    border:1px solid pink;
+    height:220px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background:center/cover no-repeat url("winter.jpg") ;
+  }
+  .card2{
+    border:1px solid pink;
+    height:220px;
+    width: 240px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    background:center/cover no-repeat url("footwear.jpg");
+  }
+  .card3{
+    border:1px solid rgb(255, 255, 255);
+    height:220px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background:center/cover no-repeat url("seasonalsale.jpg");
+  }
+  #category_clothes{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+   
+  }
+}
+@media (min-width:640px) and (max-width:800px){
+  .card1{
+    border:1px solid pink;
+    height:220px;
+    width: 210px;
+  }
+  .card2{
+    border:1px solid pink;
+    height:220px;
+    width: 210px;
+  }
+  .card3{
+    border:1px solid rgb(255, 255, 255);
+    height:220px;
+    width: 210px; 
+  }
+  }
+  #category_clothes h2{
+    font-size: 0.89rem;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #category_clothes h3{
+      font-size: 0.99rem;
+      color:pink;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+  @media (min-width:516px) and (max-width:640px){
+    .card1{
+      border:1px solid pink;
+      height:210px;
+      width: 170px;
+    }
+    .card2{
+      border:1px solid pink;
+      height:210px;
+      width: 170px;
+      display:flex;
+    }
+    .card3{
+      border:1px solid rgb(255, 255, 255);
+      height:210px;
+      width: 170px;}
+    
+    #category_clothes h2{
+      font-size: 0.89rem;
+      color: aliceblue;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      #category_clothes h3{
+        font-size: 0.99rem;
+        color:pink;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    }
+    @media (min-width:350px) and (max-width:516px){
+      
+      .card1{
+        border:1px solid pink;
+        height:200px;
+        width: 140px;
+        display: flex;
+       
+      }
+      .card2{
+        border:1px solid pink;
+        height:200px;
+        width: 140px;
+      }
+      .card3{
+        border:1px solid rgb(255, 255, 255);
+        height:200px;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        background:center/cover no-repeat url("seasonalsale.jpg");
+      }
+      #category_clothes h2{
+        font-size: 0.667rem;
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #category_clothes h3{
+          font-size: 0.76rem;
+          color:pink;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+      }
+    /* for two box.... */
+    @media (min-width:500px) and (max-width:935px){
+      .banner{
+        border: 1px solid pink;
+        height:240px ;
+        width:420px;
+        }
+        .banner1{
+          margin: 8px;padding:8px;
+          border: 1px solid pink;
+          height:240;
+          width:420px;
+          }
+          #offer_box p{
+            font-size: 1.5rem;
+            color: rgb(212, 212, 212);
+          }
+          #offer_box h3{
+            font-size: 1.8rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:rgb(106, 106, 248);
+          }
+          #offer_box  h4{
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(108, 186, 255);
+          }
+    }
+
+@media (min-width:350px) and (max-width:443px){
+  .img_feature{
+    height:110px;
+    width:110px;
+    object-fit:cover;
+    border:1px solid rgb(213, 213, 213);
+     }
+}
+@media (min-width:500px) and (max-width:900px){
+  #footer{
+    font-size: 1.1rem;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+}
+@media (min-width:350px) and (max-width:400px){
+  #footer{
+    font-size: 0.789rem;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+overflow-x: hidden;
+}
+}
+/* for the last ....summary page */
+@media (min-width:500px) and (max-width:900px){
+.logo{
+  height:60px; 
+  width:60px;
+}
+.footer1 p{
+  font-size:0.64556rem;
+  margin:4px;
+  padding:3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer3{
+  display: flex;
+  flex-direction:column;
+  height:330px;
+  width: 360px;
+  border: 0px solid black;
+  flex-wrap: wrap;
+  justify-content: flex-start;}
+
+#footer_btm{
+  display:flex;
+  flex-direction:row;
+justify-content:space-between;}
+#footer{
+font-size: 1.3rem;
+background-color: black;
+color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+.footer2 h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:bold;
+  color: blue;
+  font-size: 1.3rem;
+}
+.footer2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.67rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer2 a:hover{
+text-decoration: underline;
+}
+.payment{ 
+display:flex;
+flex-direction:column; 
+flex-wrap: wrap; 
+}
+.footer3 h2{
+  font-size: 1rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+ }
+ .footer3 h3{
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+ }
+ .footer3 svg{
+  margin:3px;
+  padding:3px;
+ } 
+}
+@media (min-width:350px) and (max-width:500px){
+  .logo{
+    height:30px; 
+    width:30px;
+  }
+  .footer1 h1{
+    font-size: 1.1rem;
+  }
+  .footer1 p{
+    font-size:0.4556rem;
+    margin:4px;
+    padding:3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .footer3{
+    display: flex;
+    flex-direction:column;
+    height:300px;
+    width: 310px;
+    border: 0px solid black;
+    flex-wrap: wrap;
+    justify-content: flex-start;}
+  
+  #footer_btm{
+    display:flex;
+    flex-direction:row;
+  justify-content:space-between;}
+  #footer{
+  font-size: 1rem;
+  background-color: black; 
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  }
+  .footer2 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color: blue;
+    font-size: 0.76rem;
+  }
+  .footer2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.437rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .footer2 a:hover{
+  text-decoration: underline;
+  }
+  .payment{ 
+  display:flex;
+  flex-direction:column; 
+  flex-wrap: wrap; 
+  }
+  .footer3 h2{
+    font-size:0.78rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+   }
+   .footer3 h3{
+    font-size:0.78rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+   }
+   .footer3 svg{
+    margin:3px;
+    padding:3px;
+   } 
+  }
+  @media (min-width:505px) and (max-width:588px){
+    #repair_offer p{
+      font-size:0.89rem;
+      color:green;
+    } 
+    #repair_offer span{
+      color: red;
+      font-size:1.78rem;
+    }
+    #repair_offer h2{
+      font-size: 1.89rem;
+    }
+  }
+  @media (min-width:350px) and (max-width:505px){
+    #repair_offer p{
+      font-size:0.6rem;
+      color:green;
+    } 
+    #repair_offer span{
+      color: red;
+      font-size:1.2rem;
+    } 
+    #repair_offer h2{
+    font-size: 1.2rem; 
+    } }
